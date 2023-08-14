@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+header {
+    background-color: #1F2937;
+    height: 60px;
+    padding: 20px 200px;
+}
+
+header nav {
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+}
+
+.headerLogo {
+    margin-right: auto;
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+header nav span {
+    color: white;
+    font-size: 18px;
+}
+
+section {
+    height: 300px;
+    border: 5px solid black;
+
+}
+
+.section1 {
+    background-color: #1F2937;
+}
