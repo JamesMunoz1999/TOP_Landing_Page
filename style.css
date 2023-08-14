@@ -34,6 +34,41 @@ section {
 
 }
 
+/* Section 1 */
+
 .section1 {
+    display: flex;
     background-color: #1F2937;
+    padding: 20px 200px;
+    border: 0;
+}
+
+.section1 h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+    margin-bottom: 6px;
+}
+
+.section1 p {
+    color: white;
+    margin-top: 0;
+}
+
+.section1 button {
+    color: white;
+    background-color: #3882F6;
+    border: 0;
+    padding: 10px 30px;
+    border-radius: 12px;
+}
+
+.section1 div + div {
+    background-color: gray;
+    height: 200px;
+    width: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
